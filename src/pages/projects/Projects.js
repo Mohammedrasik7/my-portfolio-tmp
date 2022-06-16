@@ -6,7 +6,11 @@ import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import { greeting, projectsHeader, publicationsHeader } from "../../portfolio.js";
+import {
+  greeting,
+  projectsHeader,
+  publicationsHeader,
+} from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import PublicationData from "../../shared/opensource/publications.json";
 import "./Projects.css";
@@ -23,7 +27,7 @@ class Projects extends Component {
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
                 {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
+											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
 										/> */}
                 <ProjectsImg theme={theme} />

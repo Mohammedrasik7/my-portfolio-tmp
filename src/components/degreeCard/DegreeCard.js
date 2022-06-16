@@ -17,7 +17,7 @@ class DegreeCard extends Component {
                   maxHeight: "100%",
                   transform: "scale(0.9)",
                 }}
-                src={require(`../../assests/images/${degree.logo_path}`)}
+                src={require(`../../assets/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
               />
             </div>
@@ -44,9 +44,24 @@ class DegreeCard extends Component {
                 <h3 className="duration" style={{ color: theme.text }}>
                   {degree.duration}
                 </h3>
+                {degree.cgpa ? (
+                  <h3
+                    className="cgpa"
+                    style={{ color: theme.text, marginLeft: "40px" }}
+                  >
+                    CGPA: {degree.cgpa}
+                  </h3>
+                ) : (
+                  <h3
+                    className="per"
+                    style={{ color: theme.text, marginLeft: "40px" }}
+                  >
+                    PER.: {degree.per}
+                  </h3>
+                )}
               </div>
             </div>
-            <div className="body-content">
+            {/* <div className="body-content">
               {degree.descriptions.map((sentence) => {
                 return (
                   <p className="content-list" style={{ color: theme.text }}>
@@ -70,7 +85,7 @@ class DegreeCard extends Component {
                   </div>
                 </a>
               )}
-            </div>
+            </div> */}
           </div>
         </Fade>
       </div>
