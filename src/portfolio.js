@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Mohammedrasik Shahul Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://mohammedrasik7.github.io/my-portfolio-tmp/",
   },
 };
 
@@ -24,8 +24,7 @@ const greeting = {
   nickname: "",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+  resumeLink: "",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   // githubProfile: "https://github.com/ashutosh1919",
 };
@@ -48,7 +47,7 @@ const socialMediaLinks = [
   // },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    link: "https://www.linkedin.com/in/mohammedrasik-s-665670122/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },

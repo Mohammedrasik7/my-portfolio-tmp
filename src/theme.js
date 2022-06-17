@@ -131,4 +131,4 @@ export const darkTheme = {
   headerColor: "#040447",
 };
 
-export let chosenTheme = darkTheme;
+export let chosenTheme = greenTheme;
