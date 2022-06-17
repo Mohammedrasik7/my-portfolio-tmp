@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-portfolio-tmp/static/css/main.cd41b709.chunk.css",
-    "main.js": "/my-portfolio-tmp/static/js/main.2d9c25cc.chunk.js",
-    "main.js.map": "/my-portfolio-tmp/static/js/main.2d9c25cc.chunk.js.map",
+    "main.css": "/my-portfolio-tmp/static/css/main.bc2d7fd8.chunk.css",
+    "main.js": "/my-portfolio-tmp/static/js/main.8cd35f23.chunk.js",
+    "main.js.map": "/my-portfolio-tmp/static/js/main.8cd35f23.chunk.js.map",
     "runtime-main.js": "/my-portfolio-tmp/static/js/runtime-main.9484edbd.js",
     "runtime-main.js.map": "/my-portfolio-tmp/static/js/runtime-main.9484edbd.js.map",
     "static/css/2.de424728.chunk.css": "/my-portfolio-tmp/static/css/2.de424728.chunk.css",
-    "static/js/2.de462a52.chunk.js": "/my-portfolio-tmp/static/js/2.de462a52.chunk.js",
-    "static/js/2.de462a52.chunk.js.map": "/my-portfolio-tmp/static/js/2.de462a52.chunk.js.map",
+    "static/js/2.ff88a008.chunk.js": "/my-portfolio-tmp/static/js/2.ff88a008.chunk.js",
+    "static/js/2.ff88a008.chunk.js.map": "/my-portfolio-tmp/static/js/2.ff88a008.chunk.js.map",
     "index.html": "/my-portfolio-tmp/index.html",
-    "precache-manifest.faf7b3efcbc2e284cd69fa639228bf53.js": "/my-portfolio-tmp/precache-manifest.faf7b3efcbc2e284cd69fa639228bf53.js",
+    "precache-manifest.cb10a26139f191a1ca0d807f20679a13.js": "/my-portfolio-tmp/precache-manifest.cb10a26139f191a1ca0d807f20679a13.js",
     "service-worker.js": "/my-portfolio-tmp/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/my-portfolio-tmp/static/css/2.de424728.chunk.css.map",
-    "static/css/main.cd41b709.chunk.css.map": "/my-portfolio-tmp/static/css/main.cd41b709.chunk.css.map",
+    "static/css/main.bc2d7fd8.chunk.css.map": "/my-portfolio-tmp/static/css/main.bc2d7fd8.chunk.css.map",
     "static/media/index.css": "/my-portfolio-tmp/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Averisource-logo.svg": "/my-portfolio-tmp/static/media/Averisource-logo.0dba47ba.svg",
     "static/media/address_image.svg": "/my-portfolio-tmp/static/media/address_image.16559172.svg",
@@ -59,8 +59,8 @@
   "entrypoints": [
     "static/js/runtime-main.9484edbd.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.de462a52.chunk.js",
-    "static/css/main.cd41b709.chunk.css",
-    "static/js/main.2d9c25cc.chunk.js"
+    "static/js/2.ff88a008.chunk.js",
+    "static/css/main.bc2d7fd8.chunk.css",
+    "static/js/main.8cd35f23.chunk.js"
   ]
 }
