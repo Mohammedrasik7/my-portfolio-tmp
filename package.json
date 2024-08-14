@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "RasikPortfolio",
-  "homepage": "http://mohammedrasik7.github.io/my-portfolio-tmp",
+  "homepage": "https://mohammedrasik7.github.io/my-portfolio-tmp",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",

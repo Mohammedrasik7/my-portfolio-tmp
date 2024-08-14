@@ -24,7 +24,8 @@ const greeting = {
   nickname: "",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink: "",
+  resumeLink:
+    "https://drive.google.com/file/d/1AJkq1t9KoFF3XGzn1wC3Q6-nL6O7-83c/view?usp=sharing",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   // githubProfile: "https://github.com/ashutosh1919",
 };
@@ -136,10 +137,21 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Working as a full stack web application & REST API solution architect in designing, building and deploying enterprise level applications using Python, node.js. ",
-        "⚡ UI/UX prototyping and building reactive user interfaces & components with JavaScript frameworks/library  like Angular/React",
-        "⚡ Creating application backend in Python, Falcon, Node, Express & Flask",
-        "⚡ Profiency in building responsive and mobile optimized websites using CSS & SASS",
+        "⚡ 6.5 years of experience in full-stack application development, design, and deployment.",
+        "⚡ Leadership & Management: Currently leading a project, managing teams, and overseeing client interactions, project planning, and sprint management.",
+        "⚡ Solution Architecture: Expertise in architecting, designing, and deploying enterprise-level applications using technologies such as Python, Node.js, Angular, ReactJS, Flutter",
+        "⚡ UI/UX Prototyping: Skilled in developing reactive, user-friendly interfaces and components using Angular and ReactJS. Strong proficiency in CSS & SASS for creating responsive and mobile-optimized websites",
+        "⚡ Database Management: Extensive experience with both relational (SQL) and non-relational (NoSQL) databases, including ORM & ODM libraries.",
+        "⚡ Microservices Architecture: Proficient in designing and implementing microservices architecture to build scalable and modular applications.",
+        "⚡ Cloud Infrastructure & DevOps: Managing cloud infrastructure, application platforms, and environment configurations. Expertise in Azure DevOps for CI/CD pipelines and deployment automation.",
+        "⚡ Client Engagement & Project Estimation: Actively involved in client proposals, providing accurate project timelines and resource estimations.",
+        "⚡ Platform Setup & Deployment: Leading platform setup, architecture planning, and deployment strategies for web and mobile applications, ensuring performance, security, and scalability.",
+
+        // "⚡ Overall 4.5 years of experience in full stack application development and designing",
+        // "⚡ Working as a full stack web application & REST API solution architect in designing, building and deploying enterprise level applications using Python, node.js. ",
+        // "⚡ UI/UX prototyping and building reactive user interfaces & components with JavaScript frameworks/library  like Angular/React",
+        // "⚡ Creating application backend in Python, Falcon, Node, Express & Flask",
+        // "⚡ Profiency in building responsive and mobile optimized websites using CSS & SASS",
       ],
       softwareSkills: [
         {
@@ -573,17 +585,64 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "With 6.5 years of experience, I have advanced from a full stack developer to a Senior Technology Lead, where I oversee the end-to-end development and deployment of enterprise-level applications. My role involves leading cross-functional teams, managing client relationships, and driving project success through strategic planning and agile methodologies. I have architected complex systems using technologies like Python, Node.js, Angular, and ReactJS, and have ensured seamless integration with both SQL and NoSQL databases. I excel in managing cloud infrastructure, orchestrating platform setups, and maintaining high-performance environments. My experience in microservice architecture, combined with strong leadership and team management skills, has consistently delivered high-quality, scalable solutions that meet client objectives.",
+  // "Overall 4.5 years of experience in full stack application development and designing. Working as a full stack web application & REST API solution architect in designing, building and deploying enterprise level applications using Python, node.js, Angular, ReactJS. Experience with relational and non-relational databases (SQL & NoSQL) along with ORM & ODM libraries. Experience in microservice architecture. Managing cloud infrastructure and services, application platform and environments management.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
+          title: "E-Commerce Platform | Venz App - Senior Technology Lead ", //| Full Stack developer",
+          company: "Venz",
+          // company_url: "https://elait.com/",
+          logo_path: "venz_logo.png",
+          duration: "",
+          location: "Singapore",
+          description:
+            "Leading the development of a comprehensive e-commerce platform for meat, seafood, groceries, and more, including web and mobile apps.Managed project lifecycle, team, client interactions, and sprint planning. Architected platform, set up Azure DevOps, and handled deployments.On track to launch within timeline, ensuring performance and scalability.",
+          color: "#0879bf",
+        },
+        {
+          title:
+            "Payment Portal | AJ Gallagher Finance portal - Senior Technology Lead ", //| Full Stack developer",
+          company: "AJ Gallagher",
+          // company_url: "https://elait.com/",
+          logo_path: "aj_gallagher_logo.png",
+          duration: "",
+          location: "UK",
+          description:
+            "Developed a payment portal with role-based access, data validation, and third-party integrations. Managed project lifecycle, team, client interactions, and sprint planning. Architected platform, set up Azure DevOps, and handled deployments.Delivered a robust and secure payment portal with microservices architecture.",
+          color: "#0879bf",
+        },
+        {
+          title: "DBYAR (Don Bosco Young at Risk Forum) - Technology Lead ", //| Full Stack developer",
+          company: "DBYAR - Home Link",
+          // company_url: "https://elait.com/",
+          logo_path: "dbyar_logo.jpg",
+          duration: "",
+          location: "Goa",
+          description:
+            "Modernized a nationwide organization's system, integrating multiple modules and Power BI. Managed project lifecycle, team, and client interactions. Architected platform and handled deployments. Successfully consolidated all components into a unified system with enhanced security.",
+          color: "#0879bf",
+        },
+        {
+          title:
+            "Attendance and Leave Management System | Unitas - Technology Lead ", //| Full Stack developer",
+          company: "Elait IT Technologies Pvt Ltd",
+          // company_url: "https://elait.com/",
+          logo_path: "elait_logo.png",
+          duration: "",
+          location: "Chennai, Tamil Nadu",
+          description:
+            "Developed a responsive & interactive full stack progessive web application (PWA) with REST API architecture that enables the user to mark their daily attendance, view holiday calendar, apply leaves and regularize them. Created admin interface to download reports, update the leave details and regularize the attendance. Integrated with Azure AD to use microsoft authentication for user authentication to achieve Single Sign-On. Coordinated and continuously involved in gathering the requirements and documenting them.",
+          color: "#0879bf",
+        },
+        {
           title:
             "Legacy Code Modernization Accelator - Technology Lead | Frontend developer",
           company: "AveriSource",
-          company_url: "https://averisource.com/",
+          // company_url: "https://averisource.com/",
           logo_path: "Averisource-logo.svg",
           duration: "",
           location: "San Antonio, Texas, USA",
@@ -592,50 +651,81 @@ const experience = {
           color: "#0879bf",
         },
         {
-          title:
-            "Elait Business Portal - Senior Associate | Full stack Developer",
+          title: "UI Generator | Athamanirbar, Diginerves - Technology Lead ", //| Full Stack developer",
           company: "Elait IT Technologies Pvt Ltd",
-          company_url: "https://elait.com/",
+          // company_url: "https://elait.com/",
+          logo_path: "elait_logo.png",
+          duration: "",
+          location: "Chennai, Tamil Nadu",
+          description:
+            "Built a No codeLow code cloud based WYSIWYG drag & drop tool that allows users to create complex forms & screens to build simple small apps faster. Implemented microservice architecture with nodeJS Rest APIs as backend and angular as UI. Successfully managed a team of up to three developers and the development activities to meet the deliverables. Integrated with microsoft 0365, Azure AD and Microsoft graph API to manage the business flow.",
+          color: "#0879bf",
+        },
+        {
+          title: "Business Rule Engine | SURE - Technology Lead ", //| Full Stack developer",
+          company: "Elait IT Technologies Pvt Ltd",
+          // company_url: "https://elait.com/",
+          logo_path: "elait_logo.png",
+          duration: "",
+          location: "Chennai, Tamil Nadu",
+          description:
+            "Built a No codeLow code cloud based drag & drop tool with nodeJS, Angular and Google’s Blockly. The tool allows users to create complex business rules that are later used to perform ETL operations. Implemented database connectors to import data from the database and construct business rules on top of the data. Managed team of two developers and their development activities.",
+          color: "#0879bf",
+        },
+        {
+          title: "Business Website - Technology Lead ", //| Full Stack developer",
+          company: "Saaki, Argus & Averil Consulting",
+          // company_url: "https://www.saaconsulting.co.in/",
+          logo_path: "saa-logo.png",
+          duration: "",
+          location: "Chennai, Tamil Nadu",
+          description:
+            "Developed a responsive business website for the client using reactJS as a UI library. Coordinated and involved in requirement gathering and project estimations. Successfully configured and published the code on GoDaddy  server using the cpanel.",
+          color: "#0879bf",
+        },
+        {
+          title: "Elait Business Portal - Senior Associate ", //| Full Stack developer",
+          company: "Elait IT Technologies Pvt Ltd",
+          // company_url: "https://elait.com/",
           logo_path: "elait_logo.png",
           duration: "",
           location: "Chennai, Tamil Nadu",
           description:
             "Built office productivity web apps with ReactJS such as project & effort tracking, HR & finance management and integrating with Microsoft O365 services & Python REST API to manage the business flow. ",
-          color: "#9b1578",
+          color: "#0879bf",
         },
+        // {
+        //   title: "TNASDC for Logistics - Associate | Frontend Developer",
+        //   company: "Govt. of Tamil Nadu",
+        //   company_url: "https://www.tnasdcl.in/",
+        //   logo_path: "tnasdc_logo.png",
+        //   duration: "",
+        //   location: "Chennai, Tamil Nadu",
+        //   description:
+        //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, harum sequi. Quasi sint optio magnam deleniti, provident rem nulla cum quaerat, commodi laudantium, tempora nesciunt exercitationem harum laboriosam consectetur nostrum?",
+        //   color: "#0879bf",
+        // },
         {
-          title: "TNASDC for Logistics - Associate | Frontend Developer",
-          company: "Govt. of Tamil Nadu",
-          company_url: "https://www.tnasdcl.in/",
-          logo_path: "tnasdc_logo.png",
-          duration: "",
-          location: "Chennai, Tamil Nadu",
-          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, harum sequi. Quasi sint optio magnam deleniti, provident rem nulla cum quaerat, commodi laudantium, tempora nesciunt exercitationem harum laboriosam consectetur nostrum?",
-          color: "#0703fc",
-        },
-        {
-          title:
-            "Digital Term Life Insurance - Associate | Full Stack Developer",
+          title: "Digital Term Life Insurance - Associate ", //| Full Stack developer",
           company: "Lifefy Crop.",
-          company_url: "https://lifefy.com/",
+          // company_url: "https://lifefy.com/",
           logo_path: "lifefy-logo.png",
           duration: "",
           location: "Miami, Florida, USA",
           description:
             "Built scalable web servicing REST API with Python & UI with Angular which is capable of providing, reporting & managing life insurance online by interacting with other insurance providing APIs such as pricing, payment gateways, e-sign, etc. Data is loaded into MySQL server with Python ORM.",
-          color: "#fc1f20",
+          color: "#0879bf",
         },
         {
           title: "Avance 360 - Junior Associate | Backend Developer",
           company: "Madras Dyslexia Association",
-          company_url: "https://www.mdachennai.com/",
+          // company_url: "https://www.mdachennai.com/",
           logo_path: "mda_logo.png",
           duration: "",
           location: "Chennai, Tamil Nadu",
           description:
             "Digitized the existing workflow to capture the student’s information across the various activities of dyslexic therapy while also enabling relevant information sharing across multiple stakeholders and plot down the student’s progress report",
-          color: "#32a852",
+          color: "#0879bf",
         },
       ],
     },
@@ -750,9 +840,9 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "rasik1.jpg",
+    profile_image_path: "Rasik_profile_img.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "You can message me on LinkedIn or you can mail me, I will reply within 24 hours. I can help you with Full stack web, PWA and cloud based Development.",
   },
   // blogSection: {
   //   title: "Blogs",
